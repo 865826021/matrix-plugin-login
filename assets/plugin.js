@@ -12,7 +12,7 @@ PLUGIN
                 }
             });
     }])
-    .constructor('MatrixLoginCtrl', ['$scope', '$q', 'appServices', function ($scope, $q, appServices) {
+    .controller('MatrixLoginCtrl', ['$scope', '$q', 'appServices', function ($scope, $q, appServices) {
         appServices.init('matrixLogin');
 
         $scope.data = {};
