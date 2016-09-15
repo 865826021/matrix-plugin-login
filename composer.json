@@ -1,0 +1,35 @@
+{
+  "name": "wangdong/matrix-plugin-login",
+  "description": "用户登录插件",
+  "type": "matrix-plugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "wangdong",
+      "email": "mail@wangdong.io"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Matrix\\Matrix\\Login\\": "src/"
+    }
+  },
+  "extra": {
+    "plugin": {
+      "menu": {
+        "status": false
+      },
+      "action": {
+        "view": [],
+        "add": [],
+        "edit": [],
+        "delete": [],
+        "skip": [
+          "index",
+          "store"
+        ]
+      }
+    }
+  }
+}
