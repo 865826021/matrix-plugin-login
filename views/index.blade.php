@@ -1,8 +1,9 @@
 <div class="login-box" ng-controller="MatrixLoginCtrl">
-<div class="login-logo">
-<a ng-href="@{{ '/' | url }}">{!! config('matrix.logo.normal') !!}</a>
-</div>
-<!-- /.login-logo -->
+    <div class="login-logo">
+        <a ng-href="@{{ '/' | url }}">{!! config('matrix.logo.normal') !!}</a>
+    </div>
+
+    <!-- /.login-logo -->
     <div class="login-box-body">
         <form name="form">
             <div class="form-group has-feedback">
