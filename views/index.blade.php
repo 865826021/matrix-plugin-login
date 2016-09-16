@@ -1,6 +1,6 @@
 <div class="login-box" ng-controller="MatrixLoginCtrl">
 <div class="login-logo">
-<a ng-href="@{{ '/' | url }}">{!! config('matrix.header.logo.normal') !!}</a>
+<a ng-href="@{{ '/' | url }}">{!! config('matrix.logo.normal') !!}</a>
 </div>
 <!-- /.login-logo -->
     <div class="login-box-body">
