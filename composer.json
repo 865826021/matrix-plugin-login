@@ -19,16 +19,6 @@
     "plugin": {
       "menu": {
         "status": false
-      },
-      "action": {
-        "view": [],
-        "add": [],
-        "edit": [],
-        "delete": [],
-        "skip": [
-          "index",
-          "store"
-        ]
       }
     }
   }
